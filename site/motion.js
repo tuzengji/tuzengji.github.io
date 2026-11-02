@@ -69,7 +69,7 @@
   const load = () => {
     if (requested || !(mouse.matches || wide.matches)) return;
     requested = true;
-    fetch(`/assets/attention-page-${english ? 'en' : 'zh'}.json?v=9`)
+    fetch(`/assets/attention-page-${english ? 'en' : 'zh'}.json?v=10`)
       .then(response => response.ok ? response.json() : null)
       .then(data => data && build(data))
       .catch(() => {});
