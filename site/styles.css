@@ -36,7 +36,6 @@
   --line: #e4e4df;
   --wash: #efefeb;
   --accent: #008259;
-  --featured: #9e4829;
   --glass: rgb(251 251 249 / .84);
   --name-font: "Source Serif", "Noto Serif SC", "Songti SC", serif;
   --sans: "Hanken", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
@@ -151,12 +150,6 @@ h2 { position: sticky; top: 100px; align-self: start; font-size: 20px; font-weig
 .resource-links { display: flex; flex-wrap: wrap; gap: 0 18px; font-size: 14px; }
 .resource-links a { display: inline-flex; align-items: center; min-height: 30px; color: var(--ink-2); text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--ink-2) 35%, transparent); text-underline-offset: 4px; }
 .resource-links a:hover { color: var(--accent); }
-.work-entry.is-featured { padding: 20px 24px; border: 1px solid color-mix(in srgb, var(--featured) 22%, var(--line)); border-left: 3px solid var(--featured); border-radius: 6px; background: color-mix(in srgb, var(--featured) 5%, var(--paper)); }
-.work-entry.is-featured .work-time { color: var(--featured); font-weight: 500; }
-.work-entry.is-featured h3 a { color: var(--featured); }
-.work-entry.is-featured h3 a:hover { color: color-mix(in srgb, var(--featured) 82%, var(--ink)); }
-.work-entry.is-featured .resource-links a { color: var(--ink); text-decoration-color: color-mix(in srgb, var(--featured) 42%, transparent); }
-.work-entry.is-featured .resource-links a:hover { color: var(--featured); text-decoration-color: currentColor; }
 
 /* A compact directory for the long page; normal header links remain the no-script fallback. */
 .reading-nav { display: none; }
@@ -217,7 +210,6 @@ footer a:hover { color: var(--ink); }
   h2 { margin-bottom: 22px; font-size: 20px; }
   .work-list { gap: 30px; }
   .work-entry, .education-item { display: block; }
-  .work-entry.is-featured { padding: 16px 18px; }
   .work-time, .date { padding: 0; margin-bottom: 3px; }
   .work-entry h3, .education-item h3 { font-size: 19px; }
   .honors-list li, .honors-extra, #experience .section-body { padding-left: 0; }
@@ -250,6 +242,5 @@ footer a:hover { color: var(--ink); }
   main section { display: block; margin-top: 18pt; padding-top: 0; border: 0; }
   h2 { position: static; margin-bottom: 8pt; font-size: 15pt; }
   .work-entry, .education-item { break-inside: avoid; }
-  .work-entry.is-featured { border-color: #999; background: transparent; }
   .work-entry h3, .education-item h3 { font-size: 12.5pt; }
 }
