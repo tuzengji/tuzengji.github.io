@@ -102,6 +102,8 @@ html[lang="en"] .language-thumb { transform: translateX(44px); }
 .attention-note a { color: var(--ink-2); text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 4px; }
 .attention-note a:hover { color: var(--accent); text-decoration-color: currentColor; }
 @media (max-width: 1079px) { .attention-note { display: none; } }
+.profile-heading { display: flex; align-items: center; gap: 24px; }
+.profile-avatar { width: 84px; height: 84px; flex: none; border-radius: 50%; object-fit: cover; background: var(--wash); box-shadow: 0 0 0 1px color-mix(in srgb, var(--ink) 10%, transparent), 0 6px 20px -8px color-mix(in srgb, var(--ink) 16%, transparent); }
 h1 { font-family: var(--name-font); font-size: clamp(44px, 5vw, 64px); font-weight: 400; line-height: 1.12; letter-spacing: -.02em; color: var(--ink); }
 html[lang="zh-CN"] h1 { letter-spacing: .02em; }
 html[lang="en"] { --date: 132px; }
@@ -200,6 +202,8 @@ footer a:hover { color: var(--ink); }
   .section-links a::after { bottom: 8px; }
   .reading-menu nav { padding-inline: 22px; }
   .profile { padding-top: 32px; }
+  .profile-heading { gap: 18px; }
+  .profile-avatar { width: 72px; height: 72px; }
   h1 { font-size: 44px; }
   h1 span { display: block; margin: 10px 0 0; font-size: 28px; }
   .bio { margin-top: 24px; gap: 16px; }
@@ -221,6 +225,8 @@ footer a:hover { color: var(--ink); }
   :root { --frame: calc(100% - 36px); }
   .section-links { column-gap: 16px; }
   .reading-menu nav { padding-inline: 18px; }
+  .profile-heading { gap: 14px; }
+  .profile-avatar { width: 64px; height: 64px; }
   h1 { font-size: 40px; }
 }
 @media (pointer: coarse) {
@@ -237,6 +243,7 @@ footer a:hover { color: var(--ink); }
   .site-header, .reading-nav, .skip-link, .page-attention, .attention-note, footer { display: none !important; }
   .page { width: 100%; }
   .profile { padding-top: 0; }
+  .profile-avatar { width: 48pt; height: 48pt; box-shadow: none; }
   h1 { font-size: 28pt; }
   .bio p:first-child { font-size: 13pt; }
   main section { display: block; margin-top: 18pt; padding-top: 0; border: 0; }
