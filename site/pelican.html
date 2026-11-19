@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>鹈鹕的海岸骑行</title>
+<style>
+*{box-sizing:border-box}body{margin:0;min-height:100svh;display:grid;place-items:center;background:#faeacb}svg{display:block;width:100%;max-height:100svh}
+</style>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 600" role="img" aria-labelledby="title desc">
+<title id="title">鹈鹕的海岸骑行</title><desc id="desc">戴红帽子的白鹈鹕蹬着薄荷绿自行车，沿着落日下的海岸公路前行。</desc>
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#ffdfad"/><stop offset="1" stop-color="#faedcf"/></linearGradient>
+ <g id="spokes" stroke="#92856f" stroke-width="2"><path d="M-61 0H61 M0 -61V61 M-43 -43L43 43 M43 -43L-43 43 M-56 -23L56 23 M23 -56L-23 56 M-56 23L56 -23 M-23 -56L23 56"/></g>
+ <g id="wheel"><circle r="69" fill="#293433"/><circle r="61" fill="#f6ddb6"/><circle r="56" fill="#e9cfaa"/><use href="#spokes"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="1.5s" repeatCount="indefinite"/></use><circle r="8" fill="#293433"/></g>
+ <pattern id="waves" width="185" height="28" patternUnits="userSpaceOnUse"><path d="M4 14q16 4 32 0m53 9h22m27 -15q14 3 28 0" fill="none" stroke="#daebce" stroke-width="3" stroke-linecap="round"/><animateTransform attributeName="patternTransform" type="translate" from="0 0" to="-185 0" dur="6s" repeatCount="indefinite"/></pattern>
+ <pattern id="road" width="240" height="24" patternUnits="userSpaceOnUse"><path d="M12 14h54m11 0h5m99 -7h16" stroke="#be9f79" stroke-width="3" stroke-linecap="round"/><animateTransform attributeName="patternTransform" type="translate" from="0 0" to="-240 0" dur=".83s" repeatCount="indefinite"/></pattern>
+</defs>
+<rect width="880" height="600" fill="url(#sky)"/>
+<circle cx="694" cy="207" r="73" fill="#f4a45e"/>
+<g fill="none" stroke="#927c63" stroke-width="3" stroke-linecap="round"><path d="M144 150q8 -3 12 3q5 -8 14 -8m492 -48q7 -3 12 3q4 -6 11 -7"/></g>
+<path fill="#a7b8a3" d="M0 335q76 -9 111 -41q17 -16 34 -11q41 13 70 41q25 9 62 11h603v48H0z"/>
+<path fill="#76afa5" d="M0 338h880v100H0z"/><rect y="341" width="880" height="97" fill="url(#waves)"/>
+<path fill="#f7e0bc" d="M0 421q236 -13 433 0t447 -5v184H0z"/><rect y="500" width="880" height="60" fill="url(#road)"/>
+<ellipse cx="433" cy="505" rx="202" ry="10" fill="#776a50" opacity=".18"/>
+<use href="#wheel" x="301" y="435"/><use href="#wheel" x="558" y="435"/>
+<g stroke-linecap="round" stroke-linejoin="round" fill="none">
+ <path d="M301 435l71 -108 49 104z M372 327l149 -7 -100 111 M558 435l-41 -129 -8 -23 16 -13h16" stroke="#253e3a" stroke-width="13"/>
+ <path d="M301 435l71 -108 49 104z M372 327l149 -7 -100 111 M558 435l-41 -129" stroke="#4e9c88" stroke-width="8"/>
+ <path d="M372 327l-8 -24m155 -1 -10 -19 16 -13h16" stroke="#626a60" stroke-width="7"/>
+ <path d="M534 270h12M340 302q19 3 40 -1" stroke="#563b32" stroke-width="11"/>
+ <path d="M301 430l119 -16a17 17 0 1 1 2 34l-121 -8z" fill="#81b7a1" stroke="#38574b" stroke-width="3"/>
+</g>
+<circle cx="421" cy="431" r="12" fill="#35534a"/>
+<g id="farLeg" stroke="#ae623a" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round"><path/><g><path d="M-10 7h24" stroke="#36423d" stroke-width="5"/><path d="M-8 -4l8 2 9 -2 8 6 -25 2z" fill="#d98348" stroke-width="2"/></g></g>
+<g id="bird" stroke="#383c36" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+ <!-- The nape and breast share one silhouette with the swept tail. -->
+ <path d="M265 217q48 23 93 19 36 -2 48 -29 10 -22 3 -55 -6 -29 6 -51 14 -26 44 -24 31 2 39 31 7 27 -15 42 -17 11 -16 39 4 54 -22 84 -29 36 -83 28 -55 -6 -85 -48l-23 -35q-3 -7 11 -1z" fill="#fff7e4"/>
+ <path d="M481 112q38 13 129 18 10 1 11 7 -17 13 -49 28 -43 19 -70 7 -17 -8 -27 -32z" fill="#ee9c62"/>
+ <path d="M481 111q46 10 132 17 15 2 8 10 -73 2 -145 -9z" fill="#f8c56b"/>
+ <path d="M508 150q23 18 54 10" stroke="#be764f" stroke-width="2" fill="none"/>
+ <circle cx="468" cy="108" r="5" fill="#343831" stroke="none"/><circle cx="469" cy="106" r="1.5" fill="white" stroke="none"/>
+ <path d="M412 98q-3 -25 18 -35 30 -13 47 15l18 1q9 1 8 6l-28 4q-32 -1 -63 9z" fill="#d65c43"/>
+ <path d="M432 67q12 -4 22 13" fill="none" stroke="#ef9270" stroke-width="3"/>
+ <path d="M415 177q24 10 53 -1l-1 10q-27 11 -51 1z" fill="#d65c43"/>
+ <path d="M418 180q-36 9 -66 -8l-17 2 12 10 -13 4q42 14 84 -2z" fill="#d65c43"><animateTransform attributeName="transform" type="rotate" values="-3 418 182;4 418 182;-3 418 182" dur=".7s" repeatCount="indefinite"/></path>
+ <path d="M291 232q43 13 79 9 25 -3 39 -18 -5 24 -26 37 -32 19 -72 -1l15 -1q-22 -8 -35 -26z" fill="#e3e1cd"/>
+ <path d="M317 243q35 13 61 4m-48 8q21 7 38 3" fill="none" stroke="#abae9d" stroke-width="2"/>
+ <path d="M430 214q28 6 47 29 18 18 59 23l7 6q-45 4 -78 -13 -23 -12 -38 -31" fill="#fff7e4"/>
+</g>
+<g id="nearLeg" stroke="#c27840" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round"><path/><g><path d="M-10 7h24" stroke="#36423d" stroke-width="5"/><path d="M-8 -4l8 2 9 -2 8 6 -25 2z" fill="#efaa55" stroke-width="2"/></g></g>
+<path id="crank" stroke="#45554c" stroke-width="5" stroke-linecap="round"/>
+</svg>
+<script>
+const bird = document.querySelector('#bird');
+const crank = document.querySelector('#crank');
+const legs = ['farLeg','nearLeg'].map(id => {
+  const group = document.getElementById(id);
+  return {shin:group.firstElementChild, foot:group.lastElementChild};
+});
+function ride(time) {
+  const phase = time * Math.PI / 920;
+  const bob = 2.5 * Math.sin(2 * phase);
+  bird.setAttribute('transform', 'translate(0 '+bob+')');
+  legs.forEach(({shin,foot}, index) => {
+    const angle = phase + (index ? 0 : Math.PI);
+    const x = 421 + 29 * Math.cos(angle), y = 431 + 29 * Math.sin(angle);
+    const hipX = index ? 389 : 405, hipY = 288 + bob;
+    const dx = x - hipX, dy = y - hipY, distance = Math.hypot(dx,dy);
+    const bend = Math.sqrt(Math.max(0, 91**2 - (distance/2)**2));
+    const kneeX = hipX + dx/2 + bend * dy/distance;
+    const kneeY = hipY + dy/2 - bend * dx/distance;
+    shin.setAttribute('d', 'M'+hipX+' '+hipY+' L'+kneeX+' '+kneeY+' L'+x+' '+y);
+    foot.setAttribute('transform','translate('+x+' '+y+')');
+    if (index) crank.setAttribute('d','M421 431 L'+x+' '+(y+7));
+  });
+  requestAnimationFrame(ride);
+}
+ride(0);
+</script>
+</html>
