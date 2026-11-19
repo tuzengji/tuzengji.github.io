@@ -111,8 +111,6 @@ h1 span { display: inline-block; margin-left: .5em; font-size: .56em; letter-spa
 .bio { display: grid; gap: 22px; margin-top: 40px; text-wrap: pretty; }
 .bio p:first-child { max-width: 34em; font-size: 22px; line-height: 1.65; color: var(--ink); }
 .bio-stats, .bio-detail { max-width: 40em; font-size: 17px; line-height: 1.9; color: var(--ink-2); }
-.bio-highlights { margin-top: -6px; }
-.bio-role { display: block; margin-top: .55em; }
 .bio a { text-decoration: underline; text-decoration-color: var(--line); text-decoration-thickness: 1px; text-underline-offset: 6px; }
 .bio a:hover { color: var(--accent); text-decoration-color: currentColor; }
 .reading-menu svg { width: 16px; height: 16px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; }
@@ -210,7 +208,6 @@ footer a:hover { color: var(--ink); }
   .bio { margin-top: 24px; gap: 16px; }
   .bio p:first-child { font-size: 20px; }
   .bio-stats, .bio-detail { font-size: 16px; line-height: 1.85; }
-  .bio-highlights { margin-top: -4px; }
   .contact-links { gap: 0 24px; margin-top: 20px; font-size: 15px; }
   main section { margin-top: 56px; padding-top: 22px; }
   h2 { margin-bottom: 22px; font-size: 20px; }
