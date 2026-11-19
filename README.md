@@ -1,4 +1,4 @@
-# Zekki Tu
+# Zengji Tu
 
 Personal homepage: [tuzengji.com](https://tuzengji.com/) · [GitHub Pages mirror](https://tuzengji.github.io/).
 
