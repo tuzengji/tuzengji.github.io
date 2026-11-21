@@ -21,7 +21,7 @@
 }
 @font-face {
   font-family: "Noto Sans SC";
-  src: url("assets/fonts/noto-sans-sc-page.woff2?v=21") format("woff2");
+  src: url("assets/fonts/noto-sans-sc-page.woff2?v=22") format("woff2");
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
@@ -145,6 +145,8 @@ h2 { position: sticky; top: 100px; align-self: start; font-size: 20px; font-weig
 .author-note { display: inline-block; margin-left: 4px; font-size: 14px; color: var(--muted); white-space: nowrap; }
 .work-footer { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 22px; margin-top: 6px; }
 .venue, .project-role { font-size: 15px; line-height: 1.65; color: var(--ink-2); }
+.venue a { display: inline-flex; align-items: center; min-height: 30px; text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 4px; }
+.venue a:hover { color: var(--accent); text-decoration-color: currentColor; }
 .project-role { margin-top: 5px; }
 .work-footer .project-role { margin-top: 0; }
 .publication-status { white-space: nowrap; }
@@ -230,7 +232,7 @@ footer a:hover { color: var(--ink); }
 }
 @media (pointer: coarse) {
   .language-switch a { min-height: 44px; }
-  .resource-links a { min-height: 44px; }
+  .resource-links a, .venue a { min-height: 44px; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
